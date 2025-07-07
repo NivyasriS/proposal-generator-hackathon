@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.proposal-form,
+.proposal-list {
+  background: #fff;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+.proposal-list div {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+
+nav {
+  background: #007bff;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.current-user {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}

@@ -1,0 +1,91 @@
+/* src/styles/CreateProposal.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-proposal-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Cover full page */
+  background: linear-gradient(135deg, #f7eaff, #fef6fb);
+  padding: 2rem;
+}
+
+.create-proposal-form {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.create-proposal-form h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.create-proposal-form label {
+  display: block;
+  margin: 0.75rem 0 0.25rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.create-proposal-form input,
+.create-proposal-form textarea,
+.create-proposal-form select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  transition: border 0.2s ease;
+}
+
+.create-proposal-form input:focus,
+.create-proposal-form textarea:focus,
+.create-proposal-form select:focus {
+  border-color: #7a42f4;
+  outline: none;
+}
+
+.create-proposal-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.create-proposal-form button {
+  width: 100%;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.create-proposal-form button:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .create-proposal-form {
+    padding: 1.5rem 2rem;
+  }
+
+  .create-proposal-form h1 {
+    font-size: 1.5rem;
+  }
+}

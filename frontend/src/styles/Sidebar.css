@@ -1,0 +1,32 @@
+.sidebar-nav {
+  background-color: #e8d3f8; /* light purple */
+  width: 220px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  min-height: 100vh;
+}
+
+.sidebar-nav h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #6a1b9a; /* dark purple */
+  font-weight: bold;
+}
+
+.sidebar-nav a {
+  display: block;
+  margin-bottom: 18px;
+  font-weight: 600;
+  color: #000000; /* black text */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sidebar-nav a:hover {
+  color: #4a148c;
+}
+
+.sidebar-nav .active {
+  font-weight: bold;
+  text-decoration: underline;
+}

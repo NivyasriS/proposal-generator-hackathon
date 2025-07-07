@@ -1,0 +1,21 @@
+/* src/Components/ViewProposal.css */
+
+.view-proposal {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.view-proposal h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.view-proposal p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}

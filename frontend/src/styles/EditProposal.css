@@ -1,0 +1,48 @@
+/* src/Components/EditProposal.css */
+
+.edit-proposal {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.edit-proposal h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.edit-proposal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-proposal-form label {
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.edit-proposal-form input,
+.edit-proposal-form textarea,
+.edit-proposal-form select {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-proposal-form button {
+  margin-top: 25px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-proposal-form button:hover {
+  background: #0056b3;
+}
